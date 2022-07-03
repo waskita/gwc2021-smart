@@ -1,0 +1,1 @@
+python wheatdetectTTArotate.py --weights runs/exp1/weights/best_yolov4-p7_strip.pt --output-filename baseline.csv

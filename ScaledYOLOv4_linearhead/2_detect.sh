@@ -1,0 +1,1 @@
+python wheatdetectTTA.py --weights runs/exp2/weights/last_049.pt --output-filename linearhead.csv

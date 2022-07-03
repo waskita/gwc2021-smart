@@ -1,0 +1,1 @@
+python wheatdetectTTArotate.py --weights runs/exp2/weights/last_049.pt --output-filename baseline_pseudo50.csv

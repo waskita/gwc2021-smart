@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 python -m torch.distributed.launch --nproc_per_node 4 --master_port 46651 train.py --batch-size 16 --img 1024 1024 --data "./wheat_pseudo.yaml" --cfg "./models/yolov4-p7.yaml" --weights "runs/exp2/weights/last_049.pt" --sync-bn  --name contrasthead --epochs 100 --hyp "./data/hyp.finetune.yaml" 
